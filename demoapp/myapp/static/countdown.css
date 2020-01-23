@@ -12,7 +12,7 @@
 
 .countdown span {
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
-    font-size: 5rem;
+    font-size: 8rem;
     margin-left: 0.8rem;
 }
 
@@ -34,6 +34,12 @@
 
 .countdown-circles span:first-of-type {
     margin-left: 0;
+}
+
+.black_text{
+    color: black;
+    text-align: center;
+    position: fixed;
 }
 
 

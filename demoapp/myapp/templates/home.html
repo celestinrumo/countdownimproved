@@ -4,23 +4,12 @@
     <!-- For demo purpose-->
 
 {% block content %}
-        <div class="py-5">
         <div class="row">
-            <div class="col-lg-8 mx-auto">
+            <div class=col-sm-12">
                 <!-- Countdown 4-->
-                <div class="rounded bg-gradient-4 text-white shadow p-5 text-center mb-5">
-                    <div id="clock-c" class="countdown py-4"></div>
-                    <!-- Call to actions -->
-                    <ul class="list-inline">
-                        <li class="list-inline-item pt-2">
-                            <button id="btn-reset" type="button" class="btn btn-demo"><i class="glyphicon glyphicon-repeat"></i>Reset</button>
-                        </li>
-                    </ul>
-                </div>
+                    <div id="clock-c" class="countdown py-4 black_text alert alert-primary"></div>
             </div>
         </div>
-    </div>
-</div>
 
 
   {% for post in posts %}
